@@ -1,0 +1,72 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  text-align: center;
+  margin: 0;
+  padding: 20px;
+}
+
+.game-container {
+  max-width: 400px;
+  margin: 50px auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: #333;
+}
+
+.money-input {
+  margin: 20px 0;
+}
+
+.money-input label {
+  font-size: 16px;
+  color: #333;
+}
+
+.money-input input {
+  padding: 10px;
+  width: 200px;
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.buttons {
+  margin: 20px 0;
+}
+
+.color-button {
+  width: 100px;
+  height: 50px;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.red {
+  background-color: #ff4d4d;
+  color: white;
+}
+
+.green {
+  background-color: #4caf50;
+  color: white;
+}
+
+#message {
+  font-size: 18px;
+  color: #555;
+}
+
+#result, #total-money {
+  font-size: 20px;
+  color: #333;
+  font-weight: bold;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MonKey Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="game-container">
+    <h1>MonKey Game</h1>
+    <p id="message">Run Your Money to Ruined</p>
+<p>Refresh Page to Start Again...</p>
+    <div class="money-input">
+      <label for="money">Enter Money Ammount</label>
+      <input type="number" id="money" placeholder="Enter amount">
+    </div>
+
+    <div class="buttons">
+      <button class="color-button red" onclick="playGame('red')">Red</button>
+      <button class="color-button green" onclick="playGame('green')">Green</button>
+    </div>
+
+    <p id="result"></p>
+    <p id="total-money"></p>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
